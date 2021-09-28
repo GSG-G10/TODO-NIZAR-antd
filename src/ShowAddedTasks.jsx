@@ -8,8 +8,8 @@ const ShowTasks = () => {
       {value &&
         value.map((ele) => (
           <div key={ele.title}>
-            <p>{ele.title}</p>
-            <p>{ele.prioirty}</p>
+            <p style={{color: 'blue'}}>{ele.title}</p>
+            <p style={{color: 'blue'}}>{ele.prioirty}</p>
           </div>
         ))}
     </Fragment>
